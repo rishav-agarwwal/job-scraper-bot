@@ -23,3 +23,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Note
+
+- This is still in beta stage and can currently scrap listings from Internshala only
