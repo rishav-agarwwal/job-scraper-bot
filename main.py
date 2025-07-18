@@ -144,12 +144,12 @@ def main():
     driver = setup_driver()
     all_jobs = []
     all_jobs += scrape_internshala()
-    all_jobs += scrape_wellfound(driver)
-    driver.get("https://www.himalayas.app/jobs")
+    #all_jobs += scrape_wellfound(driver)
+    #driver.get("https://www.himalayas.app/jobs")
     time.sleep(3)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
-    all_jobs += parse_himalayas(soup)
+    #all_jobs += parse_himalayas(soup)
     driver.quit()
     print(f"[+] Scraped {len(all_jobs)} jobs. Writing to CSV...")
     write_csv(all_jobs)
