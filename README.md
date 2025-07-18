@@ -1,9 +1,7 @@
 # Job Scraper Bot
 
-This is a unified Python job scraper that collects job listings from:
+This is a Python job scraper that collects job listings from:
 - [Internshala](https://internshala.com)
-- [Wellfound](https://wellfound.com)
-- [Himalayas](https://himalayas.app)
 
 ## Features
 
